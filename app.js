@@ -65,6 +65,7 @@ app.post('/user/add', function(req, res, next){
   let email = req.body.email;
   let phone = req.body.phone;
 
+// hmset redis for key value
   client.hmset(id, [
     'first_name', first_name,
     'last_name', last_name,
