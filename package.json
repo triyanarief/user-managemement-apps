@@ -1,0 +1,26 @@
+{
+  "name": "user-managemement-apps",
+  "version": "1.0.0",
+  "description": "simple user management app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/triyanarief/user-managemement-apps.git"
+  },
+  "author": "triyan arief wibowo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/triyanarief/user-managemement-apps/issues"
+  },
+  "homepage": "https://github.com/triyanarief/user-managemement-apps#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.8",
+    "redis": "^2.7.1"
+  }
+}
