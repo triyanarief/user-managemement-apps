@@ -19,7 +19,7 @@ const port = 3000;
 const app = express();
 
 // View Engine\
-app.engine('hbs', exphbs({defaultLayout:'main.hbs'}));
+app.engine('hbs', exphbs({defaultLayout:'main', extname: '.hbs'}));
 app.set('view engine', 'hbs');
 
 // body-parser
